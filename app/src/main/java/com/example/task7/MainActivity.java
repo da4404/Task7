@@ -44,6 +44,10 @@ public class MainActivity extends AppCompatActivity {
                         imageView.setImageResource(R.drawable.haha);
                         imageButton.setImageResource(R.drawable.two);
                         break;
+                    case 3:
+                        imageView.setImageResource(R.drawable.mini);
+                        imageButton.setImageResource(R.drawable.three);
+                        break;
 
                 }
             }
@@ -51,5 +55,4 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-    }
-}
+

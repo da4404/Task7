@@ -9,25 +9,27 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="372dp"
-        android:layout_height="102dp"
+        android:layout_width="315dp"
+        android:layout_height="217dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.589"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.825"
+        app:layout_constraintVertical_bias="0.88"
         app:srcCompat="@drawable/click11" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="261dp"
-        android:layout_height="356dp"
+        android:layout_width="246dp"
+        android:layout_height="376dp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton"
         app:layout_constraintEnd_toEndOf="parent"
         android:visibility="gone"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.218"
         app:srcCompat="@drawable/albert" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
