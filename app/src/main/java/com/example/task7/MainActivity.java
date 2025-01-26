@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                         imageView.setImageResource(R.drawable.haha);
                         imageButton.setImageResource(R.drawable.two);
                         break;
-                   
+
                 }
             }
         });
